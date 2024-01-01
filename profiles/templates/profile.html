@@ -1,0 +1,10 @@
+{%extends "base.html" %}
+{%block title%}
+Profile
+{%endblock%}
+{%block content%}
+<h1 class="text-center">Profile Page</h1>
+<h1 class="text-center">Wellcon to {{user}}</h1>
+<a href={%url "passchange"%} class="btn btn-primary">Password Change</a>
+<a href={%url "passchange1"%} class="btn btn-info">Set New Password Change</a>
+{%endblock%}
